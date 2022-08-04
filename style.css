@@ -1,0 +1,165 @@
+/* Academy */
+
+.threeImg {
+    display: flex;
+    justify-content: center;
+}
+
+.backImg1 {
+    background-image: url(./images/Property\ 1=version11.png);
+    width: 300px;
+    height: 394px;
+    
+}
+.backImg2 {
+    background-image: url(./images/Group\ 21539.png);
+    width: 300px;
+    height: 394px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.backImg3 {
+    background-image: url(./images/Property\ 1=version3.png);
+    width: 300px;
+    height: 394px;
+    margin-left: 120px;
+}
+.textBox {
+    background-color: white;
+    width: 280px;
+    height: 118px;
+    color: #2E2A39;
+    border-radius: 20px;
+    margin-top: 266px;
+    margin-left: 10px;
+}
+.textBox .text {
+    margin-top: 20px;
+    line-height: 20px;
+    padding: 20px;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    
+}
+.profesion {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+.from {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.from a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* cards */
+
+
+.card {
+    background-image: url(./images/Image.png);
+    width: 413px;
+    height: 460px;
+    align-items: center;
+}
+.price {
+    display: flex;
+    margin-top: 20px;
+}
+.price li:first-child{
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 66px;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 21px;
+
+
+}
+.price li:last-child {
+    margin-left: 186px;
+    background-color: white;
+    width: 67px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 56px;  
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #2E2A39;
+}
+
+.bottomCard {
+    background-color: white;
+    width: 393px;
+    height: 212px;
+    margin-top: 180px;
+    border-radius: 18px;
+    padding-left: 20px;
+}
+.bottomCard ul {
+    display: flex;
+    margin-bottom: 16px;
+}
+.bottomCard ul li {
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+   color: #2E2A39;
+   padding-top: 20px;
+}
+.bottomCard ul li:last-child {
+    margin-left: 16px;
+    opacity: 0.4;
+}
+.bottomCard h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #2E2A39;
+    margin-bottom: 8px;
+}
+.bottomCard p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #2E2A39;
+    margin-bottom: 16px;
+}
+.students {
+    display: flex;
+}
+.students p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #2E2A39;
+    border: 1px solid #E6E6E6;
+    border-radius: 46px;
+    gap: 8px;
+    padding: 16px 20px 16px 16px;
+}
+.clck, .kcy, .students p:first-child{
+    margin-right: 8px;
+}
