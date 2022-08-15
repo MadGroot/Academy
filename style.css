@@ -64,9 +64,11 @@
     text-decoration: none;
 }
 
+/* only and one */
 
-
-
+.threeImg {
+    margin-bottom: 100px;
+}
 
 
 /* cards */
@@ -77,10 +79,14 @@
     width: 413px;
     height: 460px;
     align-items: center;
+    margin: 10px;
 }
 .price {
     display: flex;
     margin-top: 20px;
+}
+.prices {
+    opacity: 0.7;
 }
 .price li:first-child{
     background-color: white;
@@ -161,5 +167,69 @@
     padding: 16px 20px 16px 16px;
 }
 .clck, .kcy, .students p:first-child{
+    margin-right: 8px;
+}
+.firstThree, .secondThree, .thirdThree {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* only adn one */
+.sliderCard{
+    margin-top: 200px;
+}
+
+
+
+/* card slider */
+
+.sliderCard {
+    background-color: #FFF1D6;
+    border-radius: 20px;
+    width: 413px;
+    height: 456px;
+}
+
+.sliderBox {
+    background-color: white;
+    width: 393px;
+    height: 173px;
+    border-radius: 18px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.sliderImg {
+   margin-top: 24px; 
+}
+.sliderBox h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2E2A39;
+    margin-bottom: 8px;
+}
+.sliderBox .prof {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #2E2A39B7;
+    padding-bottom: 24px;
+}
+.slCourses {
+    display: flex;
+}
+.slCourses p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #2E2A39;
+    border: 1px solid #E6E6E6;
+    border-radius: 46px;
+    gap: 8px;
+    padding: 16px 20px 16px 16px;
+}
+.clck, .kcy, .slCourses p:first-child{
     margin-right: 8px;
 }
