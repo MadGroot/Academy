@@ -189,6 +189,7 @@
     border-radius: 20px;
     width: 413px;
     height: 456px;
+    position: absolute;
 }
 
 .sliderBox {
@@ -202,6 +203,9 @@
 }
 .sliderImg {
    margin-top: 24px; 
+   align-items: center;
+   
+   margin-left: 100px;
 }
 .sliderBox h4 {
     font-size: 20px;
