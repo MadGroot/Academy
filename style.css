@@ -177,7 +177,7 @@
 
 /* only adn one */
 .sliderCard{
-    margin-top: 200px;
+    margin-top: 400px;
 }
 
 
@@ -231,9 +231,52 @@
     color: #2E2A39;
     border: 1px solid #E6E6E6;
     border-radius: 46px;
-    gap: 8px;
     padding: 16px 20px 16px 16px;
 }
 .clck, .kcy, .slCourses p:first-child{
     margin-right: 8px;
+}
+
+
+
+/* Img buttons */
+
+
+.backk {
+    width: 570px;
+    height: 496px;
+    position: absolute;
+}
+.ImgBtn {
+    padding: 15px 30px 15px 30px;
+    background: #F2622B;
+    color: #ffffff;
+    box-shadow: 0px 0px 30px rgba(76, 94, 120, 0.12);
+    border-radius: 44px;
+    transform: rotate(2deg);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    margin-top: 238px;
+    margin-left: 306px;
+}
+.ImgName {
+    width: 212px;
+    height: 50px;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0px 0px 30px rgba(76, 94, 120, 0.12);
+    border-radius: 44px;
+    transform: rotate(-2deg);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-left: 146px;
+    margin-top: 278px;
+    position: absolute;
 }
