@@ -87,6 +87,7 @@
 }
 .prices {
     opacity: 0.7;
+    text-decoration: line-through;
 }
 .price li:first-child{
     background-color: white;
@@ -180,62 +181,6 @@
     margin-top: 400px;
 }
 
-
-
-/* card slider */
-
-.sliderCard {
-    background-color: #FFF1D6;
-    border-radius: 20px;
-    width: 413px;
-    height: 456px;
-    position: absolute;
-}
-
-.sliderBox {
-    background-color: white;
-    width: 393px;
-    height: 173px;
-    border-radius: 18px;
-    margin-left: 10px;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-.sliderImg {
-   margin-top: 24px; 
-   align-items: center;
-   
-   margin-left: 100px;
-}
-.sliderBox h4 {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    color: #2E2A39;
-    margin-bottom: 8px;
-}
-.sliderBox .prof {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #2E2A39B7;
-    padding-bottom: 24px;
-}
-.slCourses {
-    display: flex;
-}
-.slCourses p {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    color: #2E2A39;
-    border: 1px solid #E6E6E6;
-    border-radius: 46px;
-    padding: 16px 20px 16px 16px;
-}
-.clck, .kcy, .slCourses p:first-child{
-    margin-right: 8px;
-}
 
 
 
