@@ -89,7 +89,7 @@
     opacity: 0.7;
     text-decoration: line-through;
 }
-.price li:first-child{
+.price p:first-child{
     background-color: white;
     width: 120px;
     height: 40px;
@@ -103,7 +103,7 @@
 
 
 }
-.price li:last-child {
+.price p:last-child {
     margin-left: 186px;
     background-color: white;
     width: 67px;
@@ -224,4 +224,20 @@
     margin-left: 146px;
     margin-top: 278px;
     position: absolute;
+}
+
+
+/* prices */
+
+
+.notprices {
+    opacity: 0.7;
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.percent {
+    background-color: rgba(255, 175, 22, 0.1);
+    color: #FFAF16;
+    border-radius: 53px;
 }
