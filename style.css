@@ -72,7 +72,9 @@
 
 /* cards */
 
-
+section {
+    display: grid;
+}
 .card {
     background-image: url(./images/Image.png);
     width: 413px;
